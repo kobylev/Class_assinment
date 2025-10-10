@@ -33,9 +33,10 @@ Total number of Transactions (N): 5000
 
 Filter: Support >= 30.0%, Confidence >= 70.0%
 
-Rule | Support (%) | Confidence (%)
-Height (tall) -> Eye Color (blue) | 35.40 | 72.00
-Eye Color (blue) -> Height (tall) | 33.50 | 75.20
-Skin Texture (smooth) -> Wing Size (large) | 30.21 | 71.10
-...
+| Rule                                 | Support (%) | Confidence (%) |
+|-------------------------------------|-------------|----------------|
+| Height (tall) -> Eye Color (blue)   |       35.40 |          72.00 |
+| Eye Color (blue) -> Height (tall)   |       33.50 |          75.20 |
+| Skin Texture (smooth) -> Wing Size (large) |       30.21 |          71.10 |
+| ...                                 |        ...  |           ...  |
 
