@@ -2,7 +2,7 @@ import numpy as np
 import csv
 
 def create_csv_dataset(filename="biased_6_columns_aliens.csv", num_rows=5000,
-                       prob_ones_first3=0.7, prob_ones_last3=0.3):
+                       prob_ones_first3=0.9, prob_ones_last3=0.1):
     num_cols = 6
 
     np.random.seed(42)
